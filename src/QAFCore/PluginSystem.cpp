@@ -1,4 +1,4 @@
-#include "PluginSystem.h"
+ï»¿#include "PluginSystem.h"
 
 #include <QLibrary>
 #include <QDir>
@@ -77,7 +77,7 @@ namespace QAF
 							AbstractPluginFactory* apf = avg();
 							if (apf){
 								mFactorys << apf;
-								qDebug() << LStr("ÕýÔÚ¼ÓÔØ²å¼þ:") << apf->getAuthor()
+								qDebug() << LStr("æ­£åœ¨åŠ è½½æ’ä»¶:") << apf->getAuthor()
 									<< apf->getDesc()
 									<< apf->getType()
 									<< apf->getVersion();
@@ -95,11 +95,11 @@ namespace QAF
 							}
 						}
 					}else{
-						qCritical() << LStr("²å¼þ¼ÓÔØÊ§°Ü:") << pluginConfig.mPlugin;
+						qCritical() << LStr("æ’ä»¶åŠ è½½å¤±è´¥:") << pluginConfig.mPlugin;
 					}
 				}
 			} else{
-				qCritical() << LStr("Î´ÕÒµ½²å¼þÄ¿Â¼");
+				qCritical() << LStr("æœªæ‰¾åˆ°æ’ä»¶ç›®å½•");
 			}
 		}
 	}

@@ -1,4 +1,4 @@
-#ifndef LOG4QT_GLOBAL_H
+﻿#ifndef LOG4QT_GLOBAL_H
 #define LOG4QT_GLOBAL_H
 
 #include <QtCore/qglobal.h>

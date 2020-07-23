@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include "qafcore_global.h"
 #include "AbstractObject.h"

@@ -1,4 +1,4 @@
-#include "ConfigSystem.h"
+ï»¿#include "ConfigSystem.h"
 #include "qafcore.h"
 #include "QAFContext.h"
 #include "UIInterface.h"
@@ -84,7 +84,7 @@ namespace QAF
 		ConfigModel* cm = ConfigModel::loadConfig(path);
 		if (cm){
 			connect(cm, SIGNAL(valueChanged(QString)), this, SIGNAL(configValueChanged(QString)));
-			cm->setHeaders(QStringList() << LStr("Ãû³Æ") << LStr("Öµ"));
+			cm->setHeaders(QStringList() << LStr("åç§°") << LStr("å€¼"));
 			QString key = fInfo.baseName();
 			mModels.insert(key, cm);
 			return true;

@@ -1,4 +1,4 @@
-#ifndef TCPCLIENT_H
+ï»¿#ifndef TCPCLIENT_H
 #define TCPCLIENT_H
 
 #include <QObject>
@@ -8,8 +8,8 @@
 #include "network_global.h"
 
 enum TcpClientError{
-	TCE_UNSPORT_RESPONSE = -100, //²»Ö§³ÖµÄÏìÓ¦ÀàĞÍ
-	TCE_UNPACK_ERROR, //½âÎöÏìÓ¦´íÎó
+	TCE_UNSPORT_RESPONSE = -100, //ä¸æ”¯æŒçš„å“åº”ç±»å‹
+	TCE_UNPACK_ERROR, //è§£æå“åº”é”™è¯¯
 	TCE_SOCKET_ERROR = QAbstractSocket::UnknownSocketError
 };
 

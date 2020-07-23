@@ -1,4 +1,4 @@
-#include "TCPServer.h"
+ï»¿#include "TCPServer.h"
 
 #include <QTcpServer>
 #include <QTcpSocket>
@@ -93,7 +93,7 @@ void TCPServer::handle(ClientEntity* entity)
 					entity->Socket->write(entity->WriteBuffer.mid(entity->WriteLength,len));
 				}
 			}
-			else{ //ÎŞ·µ»ØÖµ
+			else{ //æ— è¿”å›å€¼
 			}
 
 			watcher->deleteLater();
@@ -194,7 +194,7 @@ void TCPReceiver::on_bytes_written(qint64 bytes)
 			int len = (entity->TotalWriteLength - entity->WriteLength) > MTU ? MTU : (entity->TotalWriteLength - entity->WriteLength);
 			entity->Socket->write(entity->WriteBuffer.mid(entity->WriteLength, len));
 		}else{
-			//·¢ËÍÍê±Ï
+			//å‘é€å®Œæ¯•
 		}
 	}
 }

@@ -1,4 +1,4 @@
-#include "ObjectSystem.h"
+ï»¿#include "ObjectSystem.h"
 
 namespace QAF
 {
@@ -8,7 +8,7 @@ namespace QAF
 		, mMinValidId(1)
 		, mMaxValidId(1)
 	{
-		//TODO ÊµÏÖObjectModel
+		//TODO å®žçŽ°ObjectModel
 	}
 
 	ObjectSystem::~ObjectSystem()
@@ -58,7 +58,7 @@ namespace QAF
 		if (mMinValidId < mMaxValidId)
 		{
 			ret = mMinValidId;
-			while (mMinValidId < mMaxValidId && hasObject(mMinValidId)) //È·±£idÎ¨Ò»
+			while (mMinValidId < mMaxValidId && hasObject(mMinValidId)) //ç¡®ä¿idå”¯ä¸€
 			{
 				mMinValidId++;
 			}
@@ -90,7 +90,7 @@ namespace QAF
 	{
 		if (hasObject(id))
 		{
-			//Í¨ÖªËùÓÐÎïÌå±»Ïú»Ù
+			//é€šçŸ¥æ‰€æœ‰ç‰©ä½“è¢«é”€æ¯
 			AbstractObject* ao = mObjects.value(id)->mObject;
 			foreach(ObjectProxy* op, mObjects.value(id)->mProxys)
 			{

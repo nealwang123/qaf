@@ -19,12 +19,14 @@ LIBS += -L$$PWD/../../lib
 DEPENDPATH += $$PWD
 CONFIG(debug,debug|release){
     TARGET=$$join(TARGET,,,d)
-    LIBS += -lQAFCored \
-        -lQtPropertyBrowserd
+    LIBS += -lQAFCored
+#        -lQtPropertyBrowserd
 }
 
 CONFIG(release,release|debug){
-    LIBS += -lQAFCore \
-        -lQtPropertyBrowser
+    LIBS += -lQAFCore
+#        -lQtPropertyBrowser
 }
+message($$QT_INSTALL_PREFIX)
+include($$[QT_INSTALL_PREFIX]/../Src/qttools/src/shared/qtpropertybrowser/qtpropertybrowser.pri)
 include(UIPlugin.pri)

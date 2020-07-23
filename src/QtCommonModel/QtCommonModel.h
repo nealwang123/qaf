@@ -1,4 +1,4 @@
-/*!
+ï»¿/*!
  * \file AbstractTreeModel.h
  * \date 2016/01/16 14:25
  *
@@ -7,8 +7,8 @@
  *
  * \brief 
  *
- * »ùÓÚQt MVCÄ£Ê½ÊµÏÖµÄÊ÷ĞÎ½á¹¹Ä£ĞÍ£¬ÊµÏÖÁËÒÔĞĞÎªµ¥Î»µÄÄ£ĞÍ
- * Ïà±ÈQStandardItemÒÔµ¥Ôª¸ñÎªµ¥Î»µÄÄ£ĞÍ£¬¸ÃÄ£ĞÍ¸üÊÊÊı¾İÁ£¶ÈÉÔ´óµÄĞèÇó
+ * åŸºäºQt MVCæ¨¡å¼å®ç°çš„æ ‘å½¢ç»“æ„æ¨¡å‹ï¼Œå®ç°äº†ä»¥è¡Œä¸ºå•ä½çš„æ¨¡å‹
+ * ç›¸æ¯”QStandardItemä»¥å•å…ƒæ ¼ä¸ºå•ä½çš„æ¨¡å‹ï¼Œè¯¥æ¨¡å‹æ›´é€‚æ•°æ®ç²’åº¦ç¨å¤§çš„éœ€æ±‚
  *
  * \note
 */
@@ -43,7 +43,7 @@ public:
     void insertItem(ModelItem* item, ModelItem* befor, ModelItem* parent = Q_NULLPTR);
     void removeItem(ModelItem* item);
 
-    //ÅúÁ¿²Ù×÷
+    //æ‰¹é‡æ“ä½œ
     void addItems(QList<ModelItem*> items, ModelItem* parent = Q_NULLPTR);
     void clearChildren(ModelItem* parent);
 

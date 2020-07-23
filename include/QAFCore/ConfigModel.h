@@ -1,4 +1,4 @@
-/*!
+ï»¿/*!
  * \file ConfigModel.h
  * \date 2016/01/16 14:32
  *
@@ -7,7 +7,7 @@
  *
  * \brief 
  *
- * ÅäÖÃÏîÄ£ĞÍ£¬»ùÓÚAbstractTreeModelÊµÏÖ
+ * é…ç½®é¡¹æ¨¡å‹ï¼ŒåŸºäºAbstractTreeModelå®ç°
  *
  * \note
 */

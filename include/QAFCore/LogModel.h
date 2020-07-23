@@ -1,4 +1,4 @@
-/*!
+ï»¿/*!
  * \file LogModel.h
  * \date 2016/01/16 14:34
  *
@@ -7,7 +7,7 @@
  *
  * \brief 
  *
- * ÈÕÖ¾Ä£ÐÍ£¬»ùÓÚAbstractTreeModel
+ * æ—¥å¿—æ¨¡åž‹ï¼ŒåŸºäºŽAbstractTreeModel
  *
  * \note
 */

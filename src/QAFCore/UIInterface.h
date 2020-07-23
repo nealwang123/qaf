@@ -1,4 +1,4 @@
-#ifndef UIINTERFACE_H
+ï»¿#ifndef UIINTERFACE_H
 #define UIINTERFACE_H
 
 #include "QAFGlobal.h"
@@ -11,7 +11,7 @@ class QSplashScreen;
 
 namespace QAF
 {
-	//Ö÷¿ò¼ÜÓëÄ£¿éÖ®¼äUI½»»¥½Ó¿Ú
+	//ä¸»æ¡†æ¶ä¸æ¨¡å—ä¹‹é—´UIäº¤äº’æ¥å£
 	class UIInterface
 	{
 	public:

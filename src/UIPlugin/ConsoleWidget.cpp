@@ -1,4 +1,4 @@
-#include "ConsoleWidget.h"
+ï»¿#include "ConsoleWidget.h"
 #include <LogModel.h>
 #include <QAFContext.h>
 #include <QStandardItemModel>
@@ -27,12 +27,12 @@ ConsoleWidget::ConsoleWidget(QWidget *parent)
 	ui.tableView->setSelectionBehavior(QAbstractItemView::SelectRows);
 
 	ui.comboBox->addItems(QStringList()
-		<< QString::fromLocal8Bit("È«²¿")
-		<< QString::fromLocal8Bit("ÐÅÏ¢")
-		<< QString::fromLocal8Bit("µ÷ÊÔ")
-		<< QString::fromLocal8Bit("¾¯¸æ")
-		<< QString::fromLocal8Bit("Î£ÏÕ")
-		<< QString::fromLocal8Bit("´íÎó"));
+		<< QString::fromLocal8Bit("å…¨éƒ¨")
+		<< QString::fromLocal8Bit("ä¿¡æ¯")
+		<< QString::fromLocal8Bit("è°ƒè¯•")
+		<< QString::fromLocal8Bit("è­¦å‘Š")
+		<< QString::fromLocal8Bit("å±é™©")
+		<< QString::fromLocal8Bit("é”™è¯¯"));
 }
 
 ConsoleWidget::~ConsoleWidget()
